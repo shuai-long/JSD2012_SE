@@ -35,5 +35,8 @@ public class Test {
         Point point1 = new Point(15, 20);
         System.out.println(point == point1);
         System.out.println(point.equals(point1));
+        /*
+        JAVA提供的类基本都妥善的重写了toString()和equals()方法
+         */
     }
 }
